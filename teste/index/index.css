@@ -1,0 +1,47 @@
+*{
+
+    box-sizing: border-box;
+    margin: 0%;
+
+}
+
+
+.mae{
+
+    background-color: aliceblue;
+    height: 250px;
+    width: 100%;
+    padding-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.ponto{
+
+    background-color: rgba(240, 128, 128, 0.363);
+    rotate: 20deg;
+    box-shadow: 20px 10px 10px #00000049;
+    border-radius: 30px;
+    height: 150px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+#pum{
+
+
+    background-color: black;
+    height: 50px;
+    width: 50px;
+    border-radius: 5%;
+    border-width: 5px;
+    border-color: #ffff;
+}

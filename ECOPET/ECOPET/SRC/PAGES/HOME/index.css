@@ -1,0 +1,1021 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+.cabecalho {
+    background-color: #F6E2E6;
+    height: 108px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+
+
+}
+
+.cabecalho>h1 {
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    margin: 10px;
+    font-family: 'Irish Grover';
+
+
+
+
+
+}
+
+.logo {
+    display: flex;
+    justify-content: start;
+    font-size: 60px;
+    align-items: end;
+    margin: 10px;
+    color: #76B2A4;
+    margin-left: 10px;
+    margin-right: 40px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    margin: 10px;
+    width: 350px;
+    margin-left: 230px;
+    margin-right: 150px;
+
+}
+
+.menu>a {
+    margin-right: 70px;
+    color: #834040;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+}
+
+#cant {
+
+    display: flex;
+
+
+}
+
+
+.botaos-canto {
+    display: flex;
+    justify-content: end;
+
+
+}
+
+
+
+.botaos-canto>a {
+    display: flex;
+    justify-content: end;
+    align-items: flex-start;
+    margin-bottom: 70px;
+    margin: 10px;
+    font-family: 'Inter', sans-serif;
+    color: #000;
+    text-decoration: none;
+
+}
+
+.imgcab {
+
+    display: flex;
+    height: 50px;
+    width: 50px;
+    margin-top: 50px;
+    margin-right: 50px;
+
+}
+
+
+.container-front {
+    width: 371px;
+    height: 412px;
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+}
+
+.cachorro {}
+
+.gato {}
+
+
+
+.meio-front1 {
+    background-color: #F6E2E6;
+    width: 100%;
+    height: 190px;
+}
+
+
+.meio-front1>h1 {}
+
+.meio-front1>p {}
+
+
+.final-front {
+    height: 339px;
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../../ASSETS/IMAGES/papel.jpg");
+}
+
+.final-front>h1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+#titulo-final {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.caixinhas {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+
+.coluna1 {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+
+}
+
+.coluna1>a {}
+
+.casinhas {
+    border: 1px solid black;
+    width: 144px;
+    height: 58px;
+    border-radius: 33px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.casagato {
+    margin: 10px;
+    width: 144px;
+    height: 58px;
+    border-radius: 40px;
+    border: 1px solid black;
+}
+
+.dog {
+    margin: 10px;
+    width: 144px;
+    height: 58px;
+    border-radius: 40px;
+    border: 1px solid black;
+}
+
+
+.coluna2 {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+.coluna2>a {}
+
+.Comedouros {
+    border: 1px solid black;
+    width: 144px;
+    height: 58px;
+    border-radius: 33px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    margin: 10px;
+}
+
+
+
+.comes {
+    margin: 10px;
+    width: 144px;
+    height: 58px;
+    border-radius: 40px;
+    border: 1px solid black;
+}
+
+
+.bebes {
+    margin: 10px;
+    width: 144px;
+    height: 58px;
+    border-radius: 40px;
+    border: 1px solid black;
+}
+
+.coluna3 {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+.coluna3>a {}
+
+
+.coleira {
+    margin: 10px;
+    width: 144px;
+    height: 58px;
+    border-radius: 40px;
+    border: 1px solid black;
+}
+
+.tapete {
+    margin: 10px;
+    width: 144px;
+    height: 58px;
+    border-radius: 40px;
+    border: 1px solid black;
+}
+
+.outros {
+    border: 1px solid black;
+    width: 144px;
+    height: 58px;
+    border-radius: 33px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+
+}
+
+.final-front {
+    height: 339px;
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../../ASSETS/IMAGES/papel.jpg");
+}
+
+.final-front>h1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    color: #76B2A4;
+}
+
+#titulo-final {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-size: 50px;
+}
+
+.caixinhas {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+
+.coluna1 {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+
+}
+
+.coluna1>a {}
+
+.casinhas {
+    border: 1px solid black;
+    width: 144px;
+    height: 58px;
+    background-color: #76B2A4;
+    border-radius: 33px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    margin: 10px;
+    padding-left: 40px;
+    z-index: 5;
+}
+
+.casagato {
+    margin: 10px;
+    width: 144px;
+    height: 58px;
+    border-radius: 40px;
+    border: 1px solid black;
+}
+
+.dog {
+    margin: 10px;
+    width: 144px;
+    height: 58px;
+    border-radius: 40px;
+    border: 1px solid black;
+}
+
+
+.coluna2 {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+.coluna2>a {}
+
+.Comedouros {
+    border: 1px solid black;
+    width: 144px;
+    height: 58px;
+    background-color: #76B2A4;
+    border-radius: 33px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    margin: 10px;
+    padding-left: 40px;
+}
+
+
+
+.comes {
+    margin: 10px;
+    width: 144px;
+    height: 58px;
+    border-radius: 40px;
+    border: 1px solid black;
+}
+
+
+.bebes {
+    margin: 10px;
+    width: 144px;
+    height: 58px;
+    border-radius: 40px;
+    border: 1px solid black;
+
+}
+
+.coluna3 {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+.coluna3>a {}
+
+
+.coleira {
+    margin: 10px;
+    width: 144px;
+    height: 58px;
+    border-radius: 40px;
+    border: 1px solid black;
+}
+
+.tapete {
+    margin: 10px;
+    width: 144px;
+    height: 58px;
+    border-radius: 40px;
+    border: 1px solid black;
+}
+
+.outros {
+    border: 1px solid black;
+    width: 144px;
+    height: 58px;
+    background-color: #76B2A4;
+    border-radius: 33px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    margin: 10px;
+    padding-left: 40px;
+}
+
+.rodape {
+    background-color: #834040;
+    height: 302px;
+    width: 100%;
+
+
+}
+
+.organize {
+    display: flex;
+    flex-direction: row;
+    color: #d8d8d8;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    justify-items: center;
+    align-items: center;
+    margin-right: 220px;
+    font-family: 'Kadwa';
+
+}
+
+.voce {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    width: 200px;
+    margin-right: 100px;
+
+
+}
+
+.voce>h1 {
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+
+.voce>p {
+    margin: 16px;
+    line-height: 75px;
+}
+
+.Duvidas {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    font-size: 16px;
+    width: 250px;
+    margin-right: 300px;
+
+}
+
+.Duvidas>h1 {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.Sobrenos {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    font-size: 16px;
+}
+
+.Sobrenos>h1 {
+    margin-bottom: 10px;
+    width: 250px;
+    margin-top: 0px;
+}
+
+.Sobrenos>p{
+
+display: flex;
+font-size: 16px;
+
+}
+
+#botaof {
+
+    display: flex;
+    color: #d8d8d8;
+    text-decoration: none;
+}
+
+#cadastro {
+
+    display: flex;
+    color: #000;
+    text-decoration: none;
+}
+
+.container-meio {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../../ASSETS/IMAGES/papel.jpg');
+    height: 1000px;
+    width: 100%;
+    flex-direction: column;
+
+
+}
+
+.apresentacao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 210px;
+
+
+
+}
+
+
+
+.apresentacao>h1 {
+    color: #76B2A4;
+    display: flex;
+    justify-content: flex-start;
+    align-items: start;
+    align-self: flex-start;
+    margin-bottom: 30px;
+    font: 40px "Kadwa";
+    margin-top: 0px;
+
+}
+
+.pm {
+    width: 1000px;
+    margin-top: 10px;
+    font: 16px 'Kadwa';
+    margin-bottom: 30px;
+    margin-left: 40px;
+}
+
+.pmp {
+
+    display: flex;
+    width: 800px;
+    align-self: flex-start;
+    margin-top: 10px;
+    font: 14px "Kadwa";
+    text-align: justify;
+    margin-bottom: 10px;
+
+}
+
+.pm2 {
+
+    display: flex;
+    width: 800px;
+    align-self: flex-start;
+    margin-top: 10px;
+    font: 14px "Kadwa";
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+.pm3 {
+
+    display: flex;
+    width: 800px;
+    align-self: flex-start;
+    margin-top: 10px;
+    font: 14px "Kadwa";
+    text-align: justify;
+    margin-bottom: 10px;
+
+}
+
+.pm4 {
+
+    display: flex;
+    width: 800px;
+    align-self: flex-start;
+    margin-top: 10px;
+    font: 14px "Kadwa";
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+.ass {
+    margin-top: 50px;
+    width: 800px;
+    align-self: flex-start;
+    font: 18px "Kadwa";
+}
+
+
+
+.amanha {
+    margin-top: 50px;
+    width: 800px;
+    align-self: flex-start;
+    font: 14px "Kadwa";
+}
+
+#selo {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+    width: 80px;
+    height: 80px;
+    margin-top: 20px;
+    margin-right: 1100px;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.icon {}
+
+#logo2 {
+
+    display: flex;
+    margin-top: 20px;
+    justify-content: end;
+    align-self: end;
+    margin-bottom: 250px;
+    color: #76B2A4;
+    font-family: 'Irish Grover';
+    font-size: 60px;
+    margin-right: 100px;
+
+
+}
+
+
+.rodape {
+    background-color: #834040;
+    height: 302px;
+    width: 100%;
+    padding: 30px 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.organize {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+    color: #d8d8d8;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    margin-left: 300px;
+
+
+}
+
+.voce {
+    display: flex;
+    flex-direction: column;
+    margin-right: 100px;
+}
+
+.voce>h1 {
+    margin-bottom: 10px;
+}
+
+.voce>p {
+    margin: 25px;
+    line-height: 75px;
+    font-size: 20px;
+}
+
+.Duvidas {
+    display: flex;
+    flex-direction: column;
+    margin-right: 100px;
+    margin: 10px;
+    margin-right: 100px;
+}
+
+.Duvidas>h1 {
+    margin-bottom: 10px;
+}
+
+.Sobrenos {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+
+}
+
+#br {
+
+    display: flex;
+    color: #d8d8d8;
+    text-decoration: none;
+
+}
+
+.Sobrenos>h1 {
+    margin-bottom: 10px;
+}
+
+#botaof {
+
+    display: flex;
+    color: #d8d8d8;
+    text-decoration: none;
+}
+
+#cadastro {
+
+    display: flex;
+    color: #000;
+    text-decoration: none;
+}
+
+
+.container-cadastro {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 800px;
+    background-image: url('../../ASSETS/IMAGES/papel.jpg');
+
+}
+
+
+
+#paragrafo-cad>h1 {
+    color: #76B2A4;
+    display: flex;
+    justify-content: flex-start;
+    align-items: start;
+    margin-left: -380px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-family: 'Kadwa';
+}
+
+.p1 {
+    width: 180px;
+    text-align: 10px;
+    margin-left: -380px;
+    margin-bottom: 20px;
+    font-family: 'Kadwa';
+
+}
+
+.p2 {
+    width: 310px;
+    margin-left: -380px;
+    margin-bottom: 80px;
+    font-family: 'Kadwa';
+
+}
+
+.cadastro-box {
+    background-color: #F6E2E6;
+
+    width: 816.83px;
+    height: 340.96px;
+    padding: 20px 20px;
+    border: 1px solid #76B2A4;
+
+}
+
+.cadastro1 {
+
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: row;
+
+}
+
+.cadastro1>div {
+    margin: 8px;
+}
+
+.f1-nome {
+
+    display: flex;
+    flex-direction: column;
+    font-family: 'Inter';
+    font-size: 14px;
+}
+
+
+.f1-nome>input {
+
+    border: 1px solid #76B2A4;
+    border-radius: 7px;
+    height: 28px;
+    width: 372px;
+}
+
+.f1-email>input {
+
+    border: 1px solid #76B2A4;
+    border-radius: 7px;
+    height: 28px;
+    width: 372px;
+}
+
+.f1-email{
+
+    display: flex;
+    flex-direction: column;
+    font-family: 'Inter';
+    font-size: 14px;
+}
+
+.f2-telefone{
+
+    display: flex;
+    flex-direction: column;
+    font-family: 'Inter';
+    font-size: 14px;
+
+}
+
+.f2-telefone>input {
+
+    border: 1px solid #76B2A4;
+    border-radius: 7px;
+    height: 28px;
+    width: 245px;
+}
+
+.f2-nascimento>input {
+    left: 1996px;
+    top: 124px;
+    border-radius: 7px;
+    height: 28px;
+    width: 150px;
+    padding: 10px 10px;
+    border-radius: 7px;
+    border: 1px solid #76B2A4;
+}
+
+.f2-nascimento{
+
+    display: flex;
+    flex-direction: column;
+    font-family: 'Inter';
+    font-size: 14px;
+    
+}
+
+.f2-cpf{
+
+    display: flex;
+    flex-direction: column;
+    font-family: 'Inter';
+    font-size: 14px;
+}
+
+.f2-cpf>input {
+    left: 1996px;
+    top: 124px;
+    border-radius: 7px;
+    height: 28px;
+    width: 150px;
+    padding: 10px 10px;
+    border-radius: 7px;
+    border: 1px solid #76B2A4;
+}
+
+
+.f2-RG{
+
+    display: flex;
+    flex-direction: column;
+    font-family: 'Inter';
+    font-size: 14px;
+}
+
+.f2-RG>input {
+    left: 1996px;
+    top: 124px;
+    border-radius: 7px;
+    height: 28px;
+    width: 150px;
+    padding: 10px 10px;
+    border-radius: 7px;
+    border: 1px solid #76B2A4;
+
+}
+
+
+
+.cadastro2 {
+
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: row;
+}
+
+.cadastro2>div {
+    margin: 10px;
+}
+
+.cadastro3 {
+
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: row;
+}
+
+.cadastro3>div {
+    margin: 5px;
+}
+
+.f2-rua>input {
+    border: 1px solid #76B2A4;
+    border-radius: 7px;
+    height: 28px;
+    width: 382px;
+}
+
+.f2-rua{
+
+    display: flex;
+    flex-direction: column;
+    font-family: 'Inter';
+    font-size: 14px;
+}
+
+.f3-bairro>input {
+    border: 1px solid #76B2A4;
+    border-radius: 7px;
+    height: 28px;
+    width: 150px;
+}
+
+.f3-bairro{
+
+    display: flex;
+    flex-direction: column;
+    font-family: 'Inter';
+    font-size: 14px;
+}
+
+.f3-resis{
+
+    display: flex;
+    flex-direction: column;
+    font-family: 'Inter';
+    font-size: 14px;
+}
+
+.f3-resis>input {
+    border: 1px solid #76B2A4;
+    border-radius: 7px;
+    height: 28px;
+    width: 100px;
+
+}
+
+.f3-cep{
+
+    display: flex;
+    flex-direction: column;
+    font-family: 'Inter';
+    font-size: 14px;
+}
+
+.f3-cep>input {
+    border: 1px solid #76B2A4;
+    border-radius: 7px;
+    height: 28px;
+    width: 100px;
+
+}
+
+.linha {
+    background-color: #76B2A4;
+    height: 1px;
+    width: 750px;
+    margin-top: -110px;
+}
+
+
+.botao-cad {
+    background-color: #F5F5F5;
+    height: 45px;
+    width: 150px;
+    border-radius: 43px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #76B2A4;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Inter';
+    font-size: 16px;
+
+
+}

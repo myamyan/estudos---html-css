@@ -1,0 +1,881 @@
+@font-face {
+    font-family: 'font1';
+    src: url('../../assets/fonts/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-muw.woff2');
+}
+
+@font-face {
+    font-family: 'font2';
+    src: url('../../assets/fonts/FBVwdDflz-iPfoPuIC2iKnkD_UBFJg.woff2');
+}
+
+
+@font-face {
+    font-family: 'font3';
+    src: url('../../assets/fonts/pxiByp8kv8JHgFVrLDz8Z1xlFQ.woff2');
+}
+
+
+* {
+
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+
+
+.tudo {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.faixacab {
+
+    width: 100%;
+    height: 82px;
+    box-shadow: 0px 0px 20px #666666;
+
+}
+
+.cabecalho {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background-color: #fff;
+    margin-bottom: 20px;
+
+}
+
+.cabecalho>img {
+
+    height: 45px;
+    width: 230px;
+
+}
+
+
+.faixa1 {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+
+
+
+}
+
+.conteudo {
+
+    margin-right: 20px;
+
+}
+
+.conteudo h1 {
+
+    font-size: 53px;
+    font-family: 'font2';
+    margin-bottom: -7px;
+    line-height: 50px;
+    transition: 0.5s;
+
+}
+
+.conteudo h2 {
+
+    font-size: 53px;
+    font-family: 'font2';
+    color: #E9184C;
+    margin-bottom: 20px;
+    transition: 0.5s;
+}
+
+.conteudo p {
+
+    text-align: left;
+    font-size: 20px;
+    font-family: 'font2';
+    margin-bottom: 25px;
+    max-width: 500px;
+    font-weight: 300;
+    color: #353535;
+}
+
+.conteudo>a {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #E9184C;
+    border: 2px solid #E9184C;
+    max-width: 200px;
+    font-size: 16px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 45px;
+    font-family: 'font2';
+    letter-spacing: 1px;
+    transition: 0.5s;
+}
+
+.conteudo>a:hover {
+
+    background-color: #E9184C;
+    color: #fff;
+    transition: 0.5s;
+    max-width: 220px;
+    letter-spacing: 2px;
+
+}
+
+.faixa1>img {
+
+    height: 440px;
+    width: 620px;
+    margin-top: 80px;
+
+}
+
+
+.faixa2 {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 90%;
+    background-color: #E9184C;
+    border-radius: 15px;
+    padding-top: 50px;
+    padding-bottom: 200px;
+    max-height: 500px;
+    padding-top: 170px;
+
+}
+
+
+.faixa2>h1 {
+
+    font-size: 35px;
+    width: 900px;
+    text-align: center;
+    color: #fff;
+    font-family: 'font2';
+
+}
+
+.vaziointerior {
+
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+
+}
+
+.linha {
+
+    display: flex;
+    flex-direction: row;
+}
+
+.linha input {
+
+    height: 40px;
+    width: 300px;
+    border-radius: 7px;
+    border: none;
+    margin-right: 10px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+
+}
+
+
+.check {
+
+    display: flex;
+    flex-direction: row;
+    width: 800px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 200px;
+    margin-bottom: 20px;
+}
+
+.inp {
+    display: flex;
+    flex-direction: row;
+    margin-right: 10px;
+
+}
+
+.inp>input {
+
+    margin-right: 5px;
+
+}
+
+.inp p {
+
+    color: #fff;
+    font-family: 'font2';
+}
+
+.button>a {
+
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    height: 50px;
+    width: 200px;
+    background-color: #fff;
+    color: #E9184C;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: 'font2';
+    padding-left: 70px;
+    padding-top: 7px;
+    transition: 0.5s;
+}
+
+.button>a:hover {
+
+    color: #fff;
+    background-color: #5d943e;
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+
+.faixa3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 70px 20px;
+}
+
+.faixa3>h1 {
+    text-align: center;
+    font-size: 36px;
+    line-height: 40px;
+    max-width: 800px;
+    font-family: 'font2';
+    margin-bottom: 60px;
+}
+
+.faixa3 h1 span {
+    color: #eb194b;
+    font-family: font2;
+}
+
+.linha-card {
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+    margin-bottom: 30px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    padding: 34px 40px 26px;
+    max-width: 390px;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    margin: 15px;
+}
+
+.card img {
+    width: 50px;
+    position: absolute;
+    top: -25px;
+}
+
+.card h1 {
+    text-align: center;
+    line-height: 20px;
+    font-size: 18px;
+    font-family: font2;
+    margin-bottom: 15px;
+    font-family: 'font2';
+}
+
+
+.card p {
+    text-align: center;
+    font-size: 16px;
+    font-family: 'font2';
+
+}
+
+.franchising {
+
+    display: flex;
+    background-color: #f0f0f0;
+    flex-direction: row;
+    width: 100%;
+    padding: 50px 125px;
+
+}
+
+.txt {
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.txt p {
+
+    font: 18px 'font2';
+    color: #5a5a5a;
+    margin-bottom: 20px;
+    line-height: 33px;
+    width: 525px;
+    margin-right: 200px;
+}
+
+.txt p span {
+
+    color: #2D2D2D;
+
+}
+
+#linharosa {
+
+    display: flex;
+    justify-self: flex-start;
+    align-self: flex-start;
+
+}
+
+
+
+.franceses {
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+
+.franceses img {
+
+    display: flex;
+    justify-items: flex-end;
+    align-items: center;
+    height: 225px;
+    width: 225px;
+
+}
+
+
+
+.divdosgraficos {
+
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+
+}
+
+.divdosgraficos h1 {
+
+    text-align: center;
+    font: 40px 'font2';
+    max-width: 1000px;
+    line-height: 45px;
+}
+
+.divdosgraficos h1 span {
+
+    color: #E9184C;
+
+}
+
+.divdosgraficos h2 {
+
+    font: 14px 'font3';
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.content {
+
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+
+}
+
+.txt2 {
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-right: 100px;
+}
+
+.txt2 h1 {
+
+    font: 23px 'font2';
+    color: #E9184C;
+    margin-bottom: 20px;
+
+
+}
+
+.txt2 p {
+
+    text-align: left;
+    font: 20px 'font2';
+    width: 300px;
+
+
+}
+
+.txt2 p span {
+
+    color: #E9184C;
+
+}
+
+.txt2 img {
+
+    height: 100px;
+    width: 270px;
+    margin-top: 50px;
+}
+
+.top {
+
+    margin-right: 100px;
+
+}
+
+.top h1 {
+
+    font: 23px 'font2';
+    color: #E9184C;
+    text-align: left;
+
+}
+
+.top img {
+
+    height: 300px;
+    width: 350px;
+
+}
+
+.reconhecimento h1 {
+
+    font: 23px 'font2';
+    color: #E9184C;
+    text-align: left;
+
+}
+
+.reconhecimento img {
+
+    height: 265px;
+    width: 300px;
+
+}
+
+
+
+.divdosfaturamento {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #E9184C;
+    max-height: 100%;
+    height: 250px;
+    margin-bottom: 100px;
+    padding: 50px 100px;
+
+}
+
+.titulo {
+
+    margin-right: 350px;
+
+}
+
+.titulo h1 {
+
+    font: 30px 'font2';
+    color: #fff;
+    width: 250px;
+
+}
+
+.txt3 p {
+
+    max-width: 100%;
+    text-align: left;
+    color: #fff;
+    font: 18px 'font2';
+    line-height: 30px;
+
+}
+
+.txt3 p span {
+    font-weight: 800;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (width: 414px) {
+
+    .cabecalho>img {
+
+        height: 30px;
+        width: 170px;
+
+    }
+
+    .faixa1 {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 35px;
+
+
+
+    }
+
+    .conteudo {
+
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        max-width: 310px;
+
+    }
+
+    .conteudo h1 {
+
+        font-size: 30px;
+
+    }
+
+    .conteudo h2 {
+
+        font-size: 30px;
+    }
+
+    .conteudo p {
+
+
+        text-align: left;
+        font-size: 20px;
+        font-family: 'font2';
+        margin-bottom: 25px;
+        max-width: 500px;
+        font-weight: 300;
+        color: #353535;
+    }
+
+    .conteudo>a {
+
+        display: none;
+    }
+
+
+    .faixa1>img {
+
+        height: 230px;
+        width: 330px;
+        margin-top: -10px;
+
+    }
+
+    .faixa2 {
+
+        max-height: 800px;
+        padding-top: 50px;
+    }
+
+    .faixa2>h1 {
+
+        font-size: 18px;
+        width: 310px;
+    }
+
+    .linha {
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .check {
+
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 300px;
+        margin-bottom: 20px;
+
+    }
+
+    .inp {
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    .inp p {
+        font: 14px 'font2';
+    }
+
+    .button>a {
+
+        height: 50px;
+        width: 100px;
+        padding-left: 20px;
+
+    }
+
+
+
+    .faixa3 {
+        padding-top: 50px;
+    }
+
+    .faixa3>h1 {
+        font-size: 26px;
+        width: 335px;
+    }
+
+    .linha-card {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card {
+        margin-bottom: 40px;
+    }
+
+    .franchising {
+
+        display: flex;
+        background-color: #f0f0f0;
+        flex-direction: column;
+        max-width: 100%;
+        width: 100%;
+        padding: 40px 0px;
+
+    }
+
+
+    .txt p {
+
+        font: 18px 'font2';
+        color: #5a5a5a;
+        margin-bottom: 20px;
+        line-height: 33px;
+        width: 300px;
+        margin-right: 0px;
+        margin-left: -40px;
+    }
+
+    #linharosa {
+
+        margin-left: 35px;
+        margin-bottom: 50px;
+
+    }
+
+
+
+    .franceses {
+
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .franceses img {
+
+        height: 175px;
+        width: 175px;
+        margin-bottom: 20px;
+
+    }
+
+    .divdosgraficos{
+
+        padding-bottom: 25px;
+
+    }
+
+
+    .divdosgraficos h1 {
+
+        font: 25px 'font2';
+        max-width: 350px;
+        line-height: 30px;
+    }
+
+    .divdosgraficos h1 span {
+
+        color: #E9184C;
+
+    }
+
+    .divdosgraficos h2 {
+
+        font: 14px 'font3';
+        font-weight: 600;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .content {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-top: 25px;
+
+
+    }
+
+    .txt2 {
+        display: flex;
+        margin-right: 0px;
+        margin-bottom: 30px;
+        align-items: flex-start;
+    }
+
+    .txt2 p {
+        text-align: left;
+        font: 18px 'font2';
+        width: 350px;
+    }
+
+    .txt2 img {
+        height: 65px;
+        width: 180px;
+        margin-top: 50px;
+
+    }
+
+    .top {
+        margin-right: 0px;
+
+    }
+
+    .top h1 {
+        margin-bottom: 20px;
+
+    }
+
+    .top img {
+
+        height: 200px;
+        width: 250px;
+
+    }
+
+    .reconhecimento h1 {
+        line-height: 25px;
+        margin-bottom: 20px;
+    }
+
+    .reconhecimento img {
+
+        height: 185px;
+        width: 250px;
+
+    }
+
+    .divdosfaturamento {
+
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        background-color: #E9184C;
+        max-height: 100%;
+        height: 725px;
+        padding: 0px 30px;
+        
+    
+    }
+    
+    .titulo {
+        margin-top: 75px;
+        margin-right: 0px;
+    
+    }
+    
+    .titulo h1 {
+    
+        font-size: 35px;
+        width:300px;
+        line-height: 40px;
+       margin-bottom: 50px;
+    }
+    
+    .txt3 p {
+        max-width: 100%;
+        width: 350px;
+    }
+
+    .txt3 p span{
+
+        margin-right: 200px;
+
+    }
+    
+
+
+}

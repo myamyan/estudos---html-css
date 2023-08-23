@@ -1,0 +1,144 @@
+@font-face {
+    font-family: 'font1';
+    src: url('../../fonts/Mommy\ Talk.otf');
+}
+
+@font-face {
+    font-family: 'font2';
+    src: url('../../fonts/Mommy\ Talk.ttf');
+}
+
+
+
+
+
+* {
+
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.tudo {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../../images/background.PNG');
+    padding-top: 100px;
+    flex-direction: column;
+}
+
+.fotos {
+
+    padding-left: 50px;
+    margin-bottom: 50px;
+}
+
+.tudo h1 {
+
+    font: 56px 'font1';
+    color: #703128;
+    width: 850px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.linha {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.linha img {
+
+    max-width: 300px;
+    max-height: 300px;
+    border: 5px solid #703128;
+    border-radius: 50px;
+
+}
+
+.linhamae {
+
+    margin-right: 50px;
+
+}
+
+.linhamae img {
+
+    margin-right: 15px;
+
+}
+
+.linhavo img {
+
+    margin-right: 15px;
+
+}
+
+
+@media (width: 414px) {
+
+
+
+    .tudo h1 {
+
+        font: 26px 'font1';
+        color: #703128;
+        width: 400px;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .fotos {
+
+
+        padding-left: 25px;
+
+    }
+
+
+    .linhamae {
+
+        display: flex;
+        flex-direction: column;
+        margin-right: 5px;
+    }
+
+    .linhavo {
+
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .linhamae img {
+
+        margin-bottom: 15px;
+
+    }
+
+    .linhavo img {
+
+        margin-bottom: 15px;
+
+    }
+
+    .linha img {
+
+        max-width: 180px;
+        max-height: 180px;
+
+    }
+
+    .linha{
+
+        margin-bottom: 25px;
+
+    }
+
+
+}
